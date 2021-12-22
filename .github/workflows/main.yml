@@ -12,4 +12,4 @@ jobs:
           cache: 'npm'
       - run: npm uninstall --save newrelic firebase bcrypt phantomjs-prebuilt
       - run: npm install
-      - run: npm run build
+#       - run: npm run build
