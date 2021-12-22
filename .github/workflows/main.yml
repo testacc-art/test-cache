@@ -10,6 +10,6 @@ jobs:
         with:
           node-version: '11'
           cache: 'npm'
-      - run: npm uninstall --save newrelic firebase
+      - run: npm uninstall --save newrelic firebase bcrypt phantomjs-prebuilt
       - run: npm install
       - run: npm run build
