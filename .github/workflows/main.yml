@@ -1,5 +1,5 @@
 name: Build Pipeline
-on: [wokflow_dispatch]
+on: [ workflow_dispatch ]
 
 jobs:
   build:
